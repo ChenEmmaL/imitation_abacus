@@ -1,0 +1,21 @@
+env_params:
+    task: scaling
+    n_frames: 3
+    base_input_number: 4
+    ext_shape: [20,5]
+    external_repr_tool: Abacus
+    IsSubmitButton: True
+    reward_shaping_custom: True
+    finger_auto: False
+    first_colums: False
+    move_and_slide_rew: True
+    inside_columns: True
+    through_columns: True
+    auto_reset: False
+    auto_signpost: False
+    signpost_reward: True
+    base_reward: -0.05
+train_params:
+    lr: 0.00003
+    ent_coef: 0.01
+    n_steps: 2048
