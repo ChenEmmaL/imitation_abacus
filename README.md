@@ -1,6 +1,7 @@
 # Imitation abacus
 RL agent that learns a predetermined algorithm. Code for PPO archittecture and DQN.   
 Each folders contains the code version for each model (minor differences from each other, mainly the reward function).   
+The file **simul_yml** contains the dependecies needed to run the code
 Run
 ```
 python run_env.py
